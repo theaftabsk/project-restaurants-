@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+.auth-box {
+    width: 360px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.auth-box h2 {
+    text-align: center;
+}
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+.auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.auth-box a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.msg {
+    color: red;
+    text-align: center;
+}

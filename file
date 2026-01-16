@@ -1,0 +1,64 @@
+restaurant-saas/
+│
+├── config/
+│   ├── db.php              # Database connection
+│   └── mail.php            # SMTP config
+│
+├── auth/
+│   ├── signup.php
+│   ├── login.php
+│   ├── verify-otp.php
+│   ├── resend-otp.php
+│   └── logout.php
+│
+├── admin/
+│   ├── login.php
+│   ├── dashboard.php
+│   ├── restaurants.php
+│   ├── branches.php
+│   └── payments.php
+│
+├── owner/
+│   ├── dashboard.php
+│   ├── profile.php
+│   ├── branches.php
+│   ├── branch-add.php
+│   ├── menu.php
+│   ├── categories.php
+│   ├── tables.php
+│   ├── qrcodes.php
+│   ├── orders.php
+│   ├── expenses.php
+│   └── reports.php
+│
+├── branch/
+│   ├── dashboard.php
+│   ├── menu.php
+│   ├── tables.php
+│   ├── qrcodes.php
+│   ├── orders.php
+│   ├── expenses.php
+│   └── reports.php
+│
+├── kitchen/
+│   └── dashboard.php
+│
+├── public/
+│   ├── order.php            # QR scan page
+│   └── place-order.php
+│
+├── includes/
+│   ├── auth-check.php       # Session check
+│   ├── admin-check.php
+│   ├── header.php
+│   ├── footer.php
+│   └── functions.php
+│
+├── assets/
+│   ├── css/style.css
+│   └── js/app.js
+│
+├── qrcodes/
+│   └── tables/
+│
+└── index.php
