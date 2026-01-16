@@ -5,8 +5,8 @@ require("../razorpay/Razorpay.php");
 
 use Razorpay\Api\Api;
 
-$KEY_ID = "rzp_test_S4CWbFTlqMGBec";
-$KEY_SECRET = "FwHU6L8Qo7p9VCdB8nrO4oag";
+$KEY_ID = "xxxxxxxxxxxx";
+$KEY_SECRET = "xxxxxxxxxxxx";
 
 $api = new Api($KEY_ID, $KEY_SECRET);
 
@@ -24,3 +24,4 @@ echo json_encode([
     "amount"   => $amount_paise,
     "key"      => $KEY_ID
 ]);
+
