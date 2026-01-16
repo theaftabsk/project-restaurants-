@@ -14,8 +14,8 @@ function sendOTP($toEmail, $otp) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'aftabsk741156@gmail.com';
-        $mail->Password   = 'hqkq jdui qvdb ocom';
+        $mail->Username   = 'xxxxxxxxx@gmail.com';
+        $mail->Password   = 'xxxxxxxxxxx';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
@@ -34,9 +34,10 @@ function sendOTP($toEmail, $otp) {
 function sendMail($to,$subject,$message){
     $headers  = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8\r\n";
-    $headers .= "From: Restaurant SaaS <no-reply@upgradeachiever.in>\r\n";
+    $headers .= "From: Restaurant SaaS <no-reply@xxxxxxxx.in>\r\n";
 
     mail($to,$subject,$message,$headers);
 }
 
 ?>
+
